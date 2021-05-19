@@ -1,0 +1,2733 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /* DECLARE CLASS AS MEDIA */
+    .col-1200 {
+        display: none;
+    }
+
+    /* NAVBAR PART CSS */
+    .cf-nav {
+        padding: 10px 5px;
+    }
+
+    #navbar-id img {
+        width: 60%;
+        padding-left: 15px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+        margin-right: 5px;
+    }
+
+    .navbar-collapse {
+        transition: all 0.2s linear;
+    }
+
+    .navbar-collapse.collapse.show {
+        transition: all 0.2s linear;
+    }
+
+    .navbar-nav {
+        background-color: #000;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        padding: 0 0 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before,
+    .navbar-light .navbar-nav .active::before,
+    .navbar-light .navbar-nav .nav-item .nav-link:focus::before,
+    .navbar-light .navbar-nav .active>.nav-link::before {
+        display: none;
+    }
+
+    .all-btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    /* SLIDER PART CSS */
+    .slider-text .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .slider-text .content h2::after {
+        width: 15%;
+    }
+
+    .slider-text .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .slider-text .content p {
+        padding: 10px 10px 10px 0;
+    }
+
+    .slider-item-list {
+        display: none;
+    }
+
+    .slider-text .content .slider-btn {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+    }
+
+    .slider-arrows {
+        top: calc(100vh - 60px);
+        right: 50%;
+        transform: translate(50%, 0);
+    }
+
+    /* ABOUT US PART CSS */
+    .about-us {
+        padding: 25px 0 0;
+        overflow: hidden;
+    }
+
+    .about-us .col-left {
+        height: 400px;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .about-us .col-left img {
+        bottom: 35px;
+        right: 15%;
+        width: 190px;
+    }
+
+    .about-us .col-right {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about-us .col-right h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+
+    .about-us .col-right h2::after {
+        width: 12%;
+        margin-right: 0%;
+        margin-left: 10px;
+    }
+
+    .about-us .col-right h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 5PX;
+    }
+
+    .about-us .col-right img {
+        width: 80px;
+    }
+
+    .about-us .col-right .headline {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 25px;
+        margin-bottom: 15px;
+    }
+
+    .about-us .col-right p {
+        margin-bottom: 35px;
+    }
+
+    .about-us .col-right .phone p,
+    .about-us .col-right .days p,
+    .about-us .col-right .hours p {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .about-us .col-right .phone p:nth-child(2),
+    .about-us .col-right .days p:nth-child(2),
+    .about-us .col-right .hours p:nth-child(2) {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    /* SPECIAL PART CSS */
+    .special .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 70px;
+    }
+
+    .special .content h2::before {
+        width: 5%;
+        margin-right: 10px;
+    }
+
+    .special .content h2::after {
+        width: 5%;
+        margin-left: 10px;
+    }
+
+    .special .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+
+    .special .content .price {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .background-inner {
+        width: 415%;
+    }
+
+    .special .content p {
+        padding: 0 5px;
+    }
+
+    .special .content img {
+        width: 80px;
+        padding-bottom: 15px;
+    }
+
+    .menu-category {
+        padding-top: 5px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .special-menu-tabs-master {
+        padding-bottom: 0;
+    }
+
+    .special-menu-tabs .col-left p {
+        line-height: 14px;
+    }
+
+    .special-menu-tabs .col-left h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .menu-category button {
+        padding: 3px 10px;
+        margin-top: 15px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    /* TESTIMONIAL PART CSS */
+    .testimonial {
+        padding: 25px 0 90px;
+    }
+
+    .testimonial .testimonial-title {
+        padding-bottom: 25px;
+    }
+
+    .testimonial h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .testimonial h2::before {
+        width: 5%;
+        margin-right: 10px;
+    }
+
+    .testimonial h2::after {
+        width: 5%;
+        margin-left: 10px;
+    }
+
+    .testimonial h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .testimonial img {
+        width: 80px;
+    }
+
+    .testimonial .headline {
+        font-size: 15px;
+        padding: 15px 0 10px;
+    }
+
+    .testimonial-slider-arrows .testimonial-left {
+        top: 91%;
+        left: 35%;
+    }
+
+    .testimonial-slider-arrows .testimonial-right {
+        top: 91%;
+        right: 35%;
+    }
+
+    /* BOOK A TABLE PART CSS */
+    .anchor {
+        top: 160px;
+    }
+
+    .book-table .col-left .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .book-table .col-left .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .book-table .col-left .content img {
+        width: 80px;
+    }
+
+    .book-table .col-left {
+        padding: 65px 0 85px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .book-table .col-right {
+        position: initial;
+        padding-bottom: 20px;
+        margin-top: -20px;
+    }
+
+    .book-table .col-right .content {
+        padding: 20px;
+        width: 100%;
+        position: initial;
+        transform: initial;
+    }
+
+    .modal .book-table .col-right {
+        margin-top: 0;
+    }
+
+    /* DATETIME PICKER CSS */
+    .bootstrap-datetimepicker-widget .datepicker table {
+        width: 10em;
+    }
+
+    /* TOOLTIP CSS */
+    .tooltip {
+        display: none !important;
+    }
+
+    /* CHEFS PART CSS */
+    .chefs {
+        padding: 25px 0
+    }
+
+    .chefs .content {
+        padding-bottom: 35px
+    }
+
+    .chefs .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0
+    }
+
+    .chefs .content h3 {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 0
+    }
+
+    .chefs .content img {
+        width: 80px;
+        padding-bottom: 0;
+    }
+
+    .chefs-list .items .inner-item img {
+        height: initial;
+    }
+
+    .chefs-list .items:hover .items-overlay {
+        padding-top: 10%;
+    }
+
+    /* NEWSLETTER PART CSS */
+    .newsletter .col-left {
+        padding: 50px 0;
+    }
+
+    .newsletter .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .newsletter .content h3 {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .newsletter .content img {
+        width: 80px;
+        padding-bottom: 0;
+    }
+
+    .newsletter .content p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .newsletter .content .btn {
+        padding: 0 19px;
+    }
+
+    .newsletter .col-right {
+        padding: 150px 0;
+    }
+
+    .newsletter .input-group-btn {
+        margin: auto;
+    }
+
+    .newsletter .content .form-control {
+        min-width: 160px;
+        border: 2px solid #000;
+        margin-bottom: 10px;
+    }
+
+    /* FOOTER PART CSS */
+    .footer .footer-top {
+        padding: 50px 0 50px;
+    }
+
+    .footer .col-1 .logo {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .footer .col-1 .social {
+        text-align: center;
+    }
+
+    .footer .col-1 .social ul li ul li {
+        padding: 5px 10px 0 14px !important;
+    }
+
+    .footer .col-2 {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .footer .col-2 ul li {
+        padding-bottom: 10px;
+    }
+
+    .footer .col-3,
+    .footer .col-4 {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .footer-bottom .col-left,
+    .footer-bottom .col-right {
+        text-align: center !important;
+    }
+
+    /* ABOUT US PAGE PART */
+    .page-header .header .content {
+        padding: 130px 0 40px;
+    }
+
+    .page-header .header .content h2 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 0;
+    }
+
+    .about-us-page .about-us .col-right h2::after {
+        width: 10%;
+    }
+
+    .page-header .header .content h3 {
+        font-size: 30px;
+        line-height: 15px;
+        padding-bottom: 10px;
+    }
+
+    .page-header .header .content img {
+        width: 80px;
+    }
+
+    .about-us-page .about-us .col-right {
+        padding: 30px 30px 10px 30px;
+    }
+
+    .about-us .col-right .phone p:nth-child(2),
+    .about-us .col-right .days p:nth-child(2),
+    .about-us .col-right .hours p:nth-child(2) {
+        font-size: 20px;
+    }
+
+    /* MENU PAGE CSS */
+    .menu-page {
+        padding-bottom: 10px;
+    }
+
+    .menu-page .special-menu-tabs .col-left {
+        margin-top: 0;
+    }
+
+    .menu-page .pagination {
+        padding-top: 25px !important;
+    }
+
+    .menu-page .pagination nav {
+        margin: auto;
+    }
+
+    /* OUR CHEFS PAGE CSS */
+    .our-chefs-page.chefs {
+        padding-bottom: 30px;
+    }
+
+    .our-chefs-page.chefs .chefs-list {
+        margin-top: 0;
+    }
+
+    /* CONTACT US PAGE */
+    .contact-us-page.contact-us .details {
+        margin-top: 0;
+        padding: 30px 0 0;
+    }
+
+    .contact-us-page .phone,
+    .contact-us-page .mail,
+    .contact-us-page .address {
+        padding-bottom: 10px !important;
+    }
+
+    .contact-us-page .phone p,
+    .contact-us-page .mail p,
+    .contact-us-page .address P {
+        margin-bottom: 0;
+    }
+
+    .contact-us-page .phone i,
+    .contact-us-page .mail i,
+    .contact-us-page .address i {
+        padding-bottom: 5px;
+    }
+
+    .contact-us-page.contact-us .form {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .contact-us-page.contact-us .form p {
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+
+    .contact-us-page.contact-us .map {
+        height: 40vh;
+    }
+
+    /* 404 PAGE CSS */
+    .page-404 .col-left {
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: -20px;
+    }
+
+    .page-404 .col-left img {
+        width: 90%;
+    }
+
+    .page-404 .col-right {
+        padding: 30px 65px;
+        text-align: center;
+    }
+
+    .page-404 .col-right p {
+        line-height: 40px;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+    .page-404 .col-right p:nth-child(2) {
+        padding-right: 0;
+    }
+
+    /* BOOK A TABLE MODAL */
+    .book-table {
+        background-color: transparent;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* DECLARE CLASS AS MEDIA */
+    .col-1200 {
+        display: none;
+    }
+
+    /* NAVBAR PART CSS */
+    #navbar-id img {
+        width: 70%;
+        padding-left: 15px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+        margin-right: 5px;
+    }
+
+    .navbar-collapse {
+        transition: all 0.2s linear;
+    }
+
+    .navbar-collapse.collapse.show {
+        transition: all 0.2s linear;
+    }
+
+    .navbar-nav {
+        background-color: #000;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        padding: 0 0 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before,
+    .navbar-light .navbar-nav .active::before,
+    .navbar-light .navbar-nav .nav-item .nav-link:focus::before,
+    .navbar-light .navbar-nav .active>.nav-link::before {
+        display: none;
+    }
+
+    .all-btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    /* SLIDER PART CSS */
+    .slider-text .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .slider-text .content h2::after {
+        width: 15%;
+    }
+
+    .slider-text .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .slider-text .content p {
+        padding: 10px 10px 10px 0;
+    }
+
+    .slider-item-list {
+        display: none;
+    }
+
+    .slider-text .content .slider-btn {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+    }
+
+    .slider-arrows {
+        top: calc(100vh - 60px);
+        right: 50%;
+        transform: translate(50%, 0);
+    }
+
+    /* ABOUT US PART CSS */
+    .about-us {
+        padding: 30px 0 0;
+        overflow: hidden;
+    }
+
+    .about-us .col-left {
+        height: 680px;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .about-us .col-left img {
+        bottom: 60px;
+        right: 15%;
+        width: 250px;
+    }
+
+    .about-us .col-right {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about-us .col-right h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0px;
+    }
+
+    .about-us .col-right h2::after {
+        width: 12%;
+        margin-right: 0%;
+        margin-left: 10px;
+    }
+
+    .about-us .col-right h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 10PX;
+    }
+
+    .about-us .col-right img {
+        width: 80px;
+    }
+
+    .about-us .col-right .headline {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .about-us .col-right p {
+        margin-bottom: 20px;
+    }
+
+    .about-us .col-right .phone p,
+    .about-us .col-right .days p,
+    .about-us .col-right .hours p {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .about-us .col-right .phone p:nth-child(2),
+    .about-us .col-right .days p:nth-child(2),
+    .about-us .col-right .hours p:nth-child(2) {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    /* SPECIAL PART CSS */
+    .special .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 85px;
+    }
+
+    .special .content h2::before {
+        width: 5%;
+        margin-right: 10px;
+    }
+
+    .special .content h2::after {
+        width: 5%;
+        margin-left: 10px;
+    }
+
+    .special .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0px;
+    }
+
+    .special .content .price {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .background-inner {
+        width: 415%;
+    }
+
+    .special .content p {
+        padding: 0 5px;
+    }
+
+    .special .content img {
+        width: 80px;
+        padding-bottom: 15px;
+    }
+
+    .menu-category {
+        padding-top: 5px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .special-menu-tabs-master {
+        padding-bottom: 0;
+    }
+
+    .special-menu-tabs .col-left p {
+        line-height: 14px;
+    }
+
+    .special-menu-tabs .col-left h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .menu-category button {
+        padding: 3px 10px;
+        margin-top: 15px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .menu-list .items:hover .items-overlay {
+        padding-top: 30%;
+    }
+
+    /* TESTIMONIAL PART CSS */
+    .testimonial h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .testimonial h2::before {
+        width: 5%;
+        margin-right: 10px;
+    }
+
+    .testimonial h2::after {
+        width: 5%;
+        margin-left: 10px;
+    }
+
+    .testimonial h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .testimonial img {
+        width: 80px;
+    }
+
+    .testimonial .headline {
+        font-size: 16px;
+        padding: 10px 0 5px;
+    }
+
+    .testimonial-slider-arrows .testimonial-left {
+        top: 95%;
+        left: 40%;
+    }
+
+    .testimonial-slider-arrows .testimonial-right {
+        top: 95%;
+        right: 40%;
+    }
+
+    /* BOOK A TABLE PART CSS */
+    .anchor {
+        top: 160px;
+    }
+
+    .book-table .col-left .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .book-table .col-left .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .book-table .col-left .content img {
+        width: 80px;
+    }
+
+    .book-table .col-left {
+        padding: 65px 0 85px;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .book-table .col-right {
+        position: initial;
+        padding-bottom: 40px;
+        margin-top: -20px;
+    }
+
+    .book-table .col-right .content {
+        padding: 20px;
+        width: 90%;
+        position: initial;
+        transform: initial;
+    }
+
+    .modal .book-table .col-right {
+        margin-top: 0;
+    }
+
+    /* DATETIME PICKER CSS */
+    .bootstrap-datetimepicker-widget .datepicker table {
+        width: 19em;
+    }
+
+    /* TOOLTIP CSS */
+    .tooltip {
+        display: none !important;
+    }
+
+    /* CHEFS PART CSS */
+    .chefs {
+        padding: 25px 0;
+    }
+
+    .chefs .content {
+        padding-bottom: 35px;
+    }
+
+    .chefs .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .chefs .content h3 {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .chefs .content img {
+        width: 80px;
+        padding-bottom: 0;
+    }
+
+    .chefs-list .items .inner-item img {
+        height: initial;
+    }
+
+    .chefs-list .items:hover .items-overlay {
+        padding-top: 5%;
+    }
+
+    /* NEWSLETTER PART CSS */
+    .newsletter .col-left {
+        padding: 50px 0;
+    }
+
+    .newsletter .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .newsletter .content h3 {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .newsletter .content img {
+        width: 80px;
+        padding-bottom: 0;
+    }
+
+    .newsletter .content p {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .newsletter .content .form-control {
+        min-width: 160px;
+        border: 2px solid #fff;
+        margin-bottom: 0;
+        border-right: none;
+        text-align: center;
+    }
+
+    .newsletter .input-group-btn {
+        margin: auto;
+    }
+
+    .newsletter .content .btn {
+        padding: 0 19px;
+    }
+
+    .newsletter .col-right {
+        padding: 150px 0;
+    }
+
+    /* FOOTER PART CSS */
+    .footer .footer-top {
+        padding: 30px 0;
+    }
+
+    .footer .col-1 .logo {
+        font-size: 40px;
+        line-height: 40px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .footer .col-1 .social {
+        text-align: center;
+    }
+
+    .footer .col-1 .social ul li ul li {
+        padding: 5px 5px 0 14px !important;
+    }
+
+    .footer .col-2 {
+        padding-left: 0;
+        text-align: center;
+        padding-top: 5px;
+    }
+
+    .footer .col-2 ul li {
+        padding-bottom: 10px;
+    }
+
+    .footer .col-3,
+    .footer .col-4 {
+        padding-top: 30px;
+        text-align: center;
+    }
+
+    .footer-bottom .col-left,
+    .footer-bottom .col-right {
+        text-align: center !important;
+    }
+
+    /* ABOUT US PAGE */
+    .page-header .header .content {
+        padding: 130px 0 50px;
+    }
+
+    .page-header .header .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .page-header .header .content h3 {
+        font-size: 45px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+
+    .about-us-page .about-us .col-right {
+        padding: 30px 30PX 20px 30px;
+    }
+
+    .about-us-page.about-us .col-right h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    /* MENU PAGE CSS */
+    .menu-page {
+        padding-bottom: 10px;
+    }
+
+    .menu-page .special-menu-tabs .col-left {
+        margin-top: 0;
+    }
+
+    .menu-page .pagination {
+        padding-top: 25px !important;
+    }
+
+    .menu-page .pagination nav {
+        margin: auto;
+    }
+
+    /* OUR CHEFS PAGE CSS */
+    .our-chefs-page.chefs {
+        padding: 0 0 25px;
+    }
+
+    .our-chefs-page.chefs .chefs-list {
+        margin-top: 0;
+    }
+
+    /* CONTACT US PAGE */
+    .contact-us-page.contact-us .details {
+        margin-top: 0;
+        padding: 30px 0 0;
+    }
+
+    .contact-us-page .phone,
+    .contact-us-page .mail,
+    .contact-us-page .address {
+        padding-bottom: 15px !important;
+    }
+
+    .contact-us-page .phone p,
+    .contact-us-page .mail p,
+    .contact-us-page .address P {
+        margin-bottom: 0;
+    }
+
+    .contact-us-page .phone i,
+    .contact-us-page .mail i,
+    .contact-us-page .address i {
+        padding-bottom: 5px;
+    }
+
+    .contact-us-page.contact-us .form {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+    .contact-us-page.contact-us .form p {
+        font-size: 19px;
+        padding-bottom: 5px;
+    }
+
+    .contact-us-page.contact-us .map {
+        height: 50vh;
+    }
+
+    /* 404 PAGE CSS */
+    .page-404 .col-left {
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: -30px;
+    }
+
+    .page-404 .col-left img {
+        width: 90%;
+    }
+
+    .page-404 .col-right {
+        padding: 40px 0 70px;
+        text-align: center;
+    }
+
+    .page-404 .col-right p {
+        line-height: 60px;
+        font-size: 40px;
+        padding-bottom: 15px;
+    }
+
+    .page-404 .col-right p:nth-child(2) {
+        padding: 0 20px 20px 20px;
+    }
+
+    .page-404 .col-right button {
+        margin: auto;
+    }
+
+    /* BOOK A TABLE MODAL */
+    .book-table {
+        background-color: transparent;
+    }
+
+    .modal-content {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* DECLARE CLASS AS MEDIA */
+    .col-1200 {
+        display: none;
+    }
+
+    /* NAVBAR PART CSS */
+    .cf-nav {
+        padding: 10px 5px;
+    }
+
+    #navbar-id img {
+        width: 60%;
+        padding-left: 15px;
+    }
+
+    .navbar-toggler {
+        background-color: #fff;
+        margin-right: 5px;
+    }
+
+    .navbar-collapse {
+        transition: all 0.2s linear;
+    }
+
+    .navbar-collapse.collapse.show {
+        transition: all 0.2s linear;
+    }
+
+    .navbar-nav {
+        background-color: #000;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        padding: 0 0 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link::before,
+    .navbar-light .navbar-nav .active::before,
+    .navbar-light .navbar-nav .nav-item .nav-link:focus::before,
+    .navbar-light .navbar-nav .active>.nav-link::before {
+        display: none;
+    }
+
+    .all-btn {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    /* SLIDER PART CSS */
+    .slider-text .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+
+    .slider-text .content h2::after {
+        width: 15%;
+    }
+
+    .slider-text .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .slider-text .content p {
+        padding: 10px 10px 10px 0;
+    }
+
+    .slider-item-list {
+        bottom: -30px;
+        left: 60%;
+        padding: 10px;
+        padding-top: 10px;
+        width: auto;
+    }
+
+    .slider-item-list .title {
+        padding-bottom: 0 !important;
+    }
+
+    .slider-item-list .title h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .slider-item-list .title h3 {
+        font-size: 20px;
+        line-height: 5px;
+    }
+
+    .slider-item-list .title img {
+        width: 25%;
+        padding: 10px 0;
+    }
+
+    .slider-item-list .items ul {
+        margin-bottom: 5px;
+    }
+
+    .slider-text .content .slider-btn {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+    }
+
+    .slider-arrows {
+        top: calc(100vh - 60px);
+        right: 60%;
+        transform: translate(50%, 0);
+    }
+
+    /* ABOUT US PART CSS */
+    .about-us {
+        padding: 30px 0 0;
+    }
+
+    .about-us .col-left {
+        height: 805px;
+        background-size: auto 100%;
+        background-position: center;
+    }
+
+    .about-us .col-left img {
+        bottom: 65px;
+        right: 115px;
+        width: 330px;
+    }
+
+    .about-us .col-right {
+        padding: 10px;
+        text-align: center;
+    }
+
+    .about-us .col-right h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .about-us .col-right h2::after {
+        width: 12%;
+        margin-right: 0;
+        margin-left: 10px;
+    }
+
+    .about-us .col-right h3 {
+        font-size: 35px;
+        line-height: 15px;
+        padding-bottom: 15PX;
+    }
+
+    .about-us .col-right img {
+        width: 80px;
+    }
+
+    .about-us .col-right h2::after {
+        width: 5%;
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .about-us .col-right .headline {
+        font-size: 15px;
+        line-height: 25px;
+        padding-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .about-us .col-right p {
+        margin-bottom: 20px;
+    }
+
+    .about-us .col-right .phone p,
+    .about-us .col-right .days p,
+    .about-us .col-right .hours p {
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    .about-us .col-right .phone p:nth-child(2),
+    .about-us .col-right .days p:nth-child(2),
+    .about-us .col-right .hours p:nth-child(2) {
+        font-size: 22px;
+        padding-bottom: 15px;
+    }
+
+    /* SPECIAL PART CSS */
+    .special .content h2 {
+        font-size: 35px;
+        line-height: 55px;
+        margin-top: 50px;
+    }
+
+    .special .content h2::before {
+        width: 5%;
+        margin-right: 10px;
+    }
+
+    .special .content h2::after {
+        width: 5%;
+        margin-left: 10px;
+    }
+
+    .special .content h3 {
+        font-size: 35px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+
+    .special .content .price {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .background-inner {
+        width: 415%;
+    }
+
+    .special .content p {
+        padding: 0 5px;
+    }
+
+    .special .content img {
+        width: 80px;
+        padding-bottom: 15px;
+    }
+
+    .foreground {
+        top: 20px;
+    }
+
+    .menu-category {
+        padding-top: 5px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .special-menu-tabs-master {
+        padding-bottom: 0;
+    }
+
+    .special-menu-tabs .col-left p {
+        line-height: 14px;
+    }
+
+    .special-menu-tabs .col-left h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .menu-category button {
+        padding: 3px 10px;
+        margin-top: 15px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .menu-list .items .items-overlay p {
+        font-size: 14px;
+    }
+
+    .menu-list .items .items-overlay p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .menu-list .items:hover .items-overlay {
+        padding-top: 30%;
+    }
+
+    /* TESTIMONIAL PART CSS */
+    .testimonial {
+        padding: 40px 0 40px;
+    }
+
+    .testimonial .testimonial-title {
+        padding-bottom: 25px;
+    }
+
+    .testimonial h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .testimonial h2::before {
+        width: 5%;
+        margin-right: 10px;
+    }
+
+    .testimonial h2::after {
+        width: 5%;
+        margin-left: 10px;
+    }
+
+    .testimonial h3 {
+        font-size: 35px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+
+    .testimonial img {
+        width: 80px;
+    }
+
+    .testimonial .headline {
+        padding: 15px 0 10px;
+    }
+
+    /* BOOK A TABLE PART CSS */
+    .anchor {
+        top: -70px;
+    }
+
+    .book-table .col-left .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .book-table .col-left .content h3 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .book-table .col-left .content img {
+        width: 80px;
+    }
+
+    .book-table .col-left {
+        padding: 170px 0;
+    }
+
+    .book-table .col-right .content {
+        padding: 20px;
+        width: 100%;
+        left: -25px;
+    }
+
+    /* DATETIME PICKER CSS */
+    .bootstrap-datetimepicker-widget .datepicker table {
+        width: 19em;
+    }
+
+    /* TOOLTIP CSS */
+    .tooltip {
+        display: none !important;
+    }
+
+    /* CHEFS PART CSS */
+    .chefs {
+        padding: 30px 0;
+    }
+
+    .chefs .content {
+        padding-bottom: 35px;
+    }
+
+    .chefs .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .chefs .content h3 {
+        font-size: 35px;
+        line-height: 15px;
+        padding-bottom: 15px;
+    }
+
+    .chefs .content img {
+        width: 80px;
+        padding-bottom: 0;
+    }
+
+    .chefs-list .items .inner-item img {
+        height: initial;
+    }
+
+    .chefs-list .items-overlay p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .chefs-list .items-overlay span {
+        font-size: 14px;
+    }
+
+    .chefs-list .items-overlay ul li {
+        display: inline-block;
+        padding: 5px 15px 0 0;
+    }
+
+    .chefs-list .items-overlay ul li a {
+        font-size: 16px;
+    }
+
+    .chefs-list .items:hover {
+        transform: scale(1.1);
+        cursor: crosshair;
+        z-index: 99;
+    }
+
+    .chefs-list .items:hover .items-overlay {
+        background: rgba(0, 0, 0, .7);
+        padding-top: 25%;
+    }
+
+    /* NEWSLETTER PART CSS */
+    .newsletter .col-left {
+        padding: 50px 0;
+    }
+
+    .newsletter .content h2 {
+        font-size: 30px;
+        line-height: 36px;
+        margin-top: 0;
+    }
+
+    .newsletter .content h3 {
+        font-size: 28px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+
+    .newsletter .content img {
+        width: 80px;
+        padding-bottom: 0;
+    }
+
+    .newsletter .content .form-control {
+        text-align: center;
+        min-width: 160px;
+        border: 2px solid #000;
+        margin-bottom: 10px;
+    }
+
+    .newsletter .content .input-group {
+        width: 60%;
+        margin: auto;
+    }
+
+    .newsletter .input-group-btn {
+        margin: auto;
+    }
+
+    /* FOOTER PART CSS */
+    .footer .footer-top {
+        padding: 50px 0 30px;
+        text-align: center;
+    }
+
+    .footer .col-1 .logo {
+        padding-bottom: 60px;
+    }
+
+    .footer .col-2 {
+        padding-left: 0;
+    }
+
+    .footer .col-3,
+    .footer .col-4 {
+        padding-top: 40px;
+    }
+
+    /* ABOUT US PAGE */
+    .page-header .header .content {
+        padding: 130px 0 50px;
+    }
+
+    .page-header .header .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .page-header .header .content h3 {
+        font-size: 45px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+
+    .about-us-page .about-us .col-right {
+        padding: 30px 30PX 20px 30px;
+    }
+
+    .about-us-page.about-us .col-right h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    /* MENU PAGE CSS */
+    .menu-page {
+        padding-bottom: 10px;
+    }
+
+    .menu-page .special-menu-tabs .col-left {
+        margin-top: 0;
+    }
+
+    .menu-page .pagination {
+        padding-top: 25px !important;
+    }
+
+    .menu-page .pagination nav {
+        margin: auto;
+    }
+
+    /* OUR CHEFS PAGE CSS */
+    .our-chefs-page.chefs {
+        padding: 0 0 20px;
+    }
+
+    .our-chefs-page.chefs .chefs-list {
+        margin-top: 0;
+    }
+
+    /* CONTACT US PAGE CSS */
+    .contact-us-page.contact-us .map {
+        height: 50vh;
+    }
+
+    /* 404 PAGE CSS */
+    .page-404 .col-left {
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: -30px;
+    }
+
+    .page-404 .col-left img {
+        width: 75%;
+    }
+
+    .page-404 .col-right {
+        padding: 40px 0 70px;
+        text-align: center;
+    }
+
+    .page-404 .col-right p {
+        line-height: 60px;
+        font-size: 50px;
+    }
+
+    .page-404 .col-right p:nth-child(2) {
+        padding: 0 20px 20px 20px;
+    }
+
+    .page-404 .col-right button {
+        margin: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* DECLARE CLASS AS MEDIA */
+    .col-1200 {
+        display: none;
+    }
+
+    /* NAVBAR PART CSS */
+    .navbar-light .navbar-nav .nav-item {
+        padding: 5px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        padding: 5px;
+        font-size: 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        padding-top: 5px;
+        margin-bottom: 0;
+    }
+
+    #logo {
+        width: 80px !important;
+    }
+
+    .navbar .all-btn {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    /* SLIDER PART CSS */
+    .slider-text {
+        padding-left: 30px;
+    }
+
+    .slider-text .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .slider-text .content h2::after {
+        width: 15%;
+    }
+
+    .slider-text .content h3 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+
+    .slider-text .content p {
+        padding: 10px 10px 10px 0;
+    }
+
+    .slider-item-list {
+        bottom: -30px;
+        left: 60%;
+        padding: 10px;
+        padding-top: 10px;
+        width: auto;
+    }
+
+    .slider-item-list .title {
+        padding-bottom: 0 !important;
+    }
+
+    .slider-item-list .title h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .slider-item-list .title h3 {
+        font-size: 20px;
+        line-height: 5px;
+    }
+
+    .slider-item-list .title img {
+        width: 25%;
+        padding: 10px 0;
+    }
+
+    .slider-item-list .items ul {
+        margin-bottom: 5px;
+    }
+
+    .slider-text .content .slider-btn {
+        font-size: 14px;
+        font-weight: 400;
+        padding: 5px 10px;
+    }
+
+    .slider-arrows {
+        top: calc(100vh - 60px);
+        right: 55%;
+        transform: translate(50%, 0);
+    }
+
+    /* ABOUT US PART CSS */
+    .about-us {
+        padding: 60px 0 0;
+    }
+
+    .about-us .col-left {
+        position: initial;
+        height: 642px;
+        background-size: auto 100%;
+    }
+
+    .about-us .col-left img {
+        position: relative;
+        top: 80%;
+        left: 40%;
+        width: 260px;
+    }
+
+    .about-us .col-right h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: 0px;
+    }
+
+    .about-us .col-right h2::after {
+        width: 30%;
+    }
+
+    .about-us .col-right h3 {
+        font-size: 45px;
+        line-height: 20px;
+        padding-bottom: 10px;
+    }
+
+    .about-us .col-right img {
+        width: 90px;
+    }
+
+    .about-us .col-right .headline {
+        padding-top: 10px;
+    }
+
+    .about-us .col-right {
+        padding: 0 0 10px 5px;
+    }
+
+    .about-us .col-right p {
+        padding-right: 10px;
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+
+    .about-us .col-right .phone p:nth-child(2),
+    .about-us .col-right .days p:nth-child(2),
+    .about-us .col-right .hours p:nth-child(2) {
+        font-size: 25px;
+        padding-bottom: 10px;
+        line-height: 5px;
+    }
+
+    /* SPECIAL PART CSS */
+    .special .content h2 {
+        margin-top: 90px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .special .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding: 5px 0 10px;
+    }
+
+    .menu-category {
+        padding-top: 5px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+
+    .special-menu-tabs-master {
+        margin-top: 400px;
+        padding-bottom: 0;
+    }
+
+    .special-menu-tabs .col-left p {
+        line-height: 14px;
+    }
+
+    .special-menu-tabs .col-left h3 {
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+    }
+
+    .menu-category button {
+        padding: 3px 15px;
+        margin-top: 15px;
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .menu-list .items .items-overlay p {
+        font-size: 14px;
+    }
+
+    .menu-list .items .items-overlay p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .menu-list .items:hover .items-overlay {
+        padding-top: 30%;
+    }
+
+    /* TESTIMONIAL PART CSS */
+    .testimonial {
+        padding: 40px 0;
+    }
+
+    .testimonial h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .testimonial h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+
+    /* BOOK A TABLE PART CSS */
+    .book-table .col-left {
+        padding: 175px 0;
+    }
+
+    .book-table .col-right .content {
+        width: 90%;
+        left: -35px;
+    }
+
+    .book-table .col-left .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .book-table .col-left .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+
+    /* CHEFS PART CSS */
+    .chefs {
+        padding: 30px 0 60px;
+    }
+
+    .chefs .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .chefs .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+    }
+
+    .chefs-list .items .inner-item img {
+        height: initial;
+    }
+
+    .chefs-list .items-overlay p {
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .chefs-list .items-overlay span {
+        font-size: 14px;
+    }
+
+    .chefs-list .items-overlay ul li {
+        display: inline-block;
+        padding: 5px 15px 0 0;
+    }
+
+    .chefs-list .items-overlay ul li a {
+        font-size: 16px;
+    }
+
+    /* NEWSLETTER PART CSS */
+    .newsletter .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .newsletter .content h3 {
+        font-size: 50px;
+    }
+
+    .newsletter .col-left {
+        padding: 100px 0;
+    }
+
+    .newsletter .content .form-control {
+        text-align: center;
+    }
+
+    .newsletter .content .input-group {
+        width: 80%;
+    }
+
+    .newsletter .input-group-btn {
+        margin: auto;
+    }
+
+    .newsletter .content .form-control {
+        min-width: 160px;
+    }
+
+    /* FOOTER PART CSS */
+    .footer .footer-top {
+        padding: 50px 0 30px;
+        text-align: center;
+    }
+
+    .footer .col-1 .logo {
+        padding-bottom: 60px;
+    }
+
+    .footer .col-2 {
+        padding-left: 0;
+    }
+
+    .footer .col-3,
+    .footer .col-4 {
+        padding-top: 40px;
+    }
+
+    /* ABOUT US PAGE */
+    .page-header .header .content {
+        padding: 130px 0 50px;
+    }
+
+    .page-header .header .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .page-header .header .content h3 {
+        font-size: 45px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+
+    .about-us-page.about-us .col-left {
+        height: 655px;
+        margin-top: -20px;
+        z-index: 9;
+    }
+    
+    .about-us-page.about-us {
+        padding: 0;
+    }
+
+    .about-us-page.about-us .col-right {
+        padding: 30px 0 10px 15px;
+    }
+
+    .about-us-page.about-us .col-right h3 {
+        font-size: 45px;
+        line-height: 30px;
+        padding-bottom: 0;
+    }
+    
+    .about-us-page.about-us .col-right p {
+        line-height: 22px;
+    }
+
+    .about-us-page.about-us .col-right .phone p,
+    .about-us-page.about-us .col-right .days p,
+    .about-us-page.about-us .col-right .hours p {
+        margin-bottom: 15px;
+    }
+
+    .about-us-page.about-us .col-right .phone p:nth-child(2),
+    .about-us-page.about-us .col-right .days p:nth-child(2),
+    .about-us-page.about-us .col-right .hours p:nth-child(2) {
+        padding-bottom: 10px;
+        line-height: 0px;
+    }
+
+    /* MENU PAGE CSS */
+    .menu-page {
+        padding-bottom: 10px;
+    }
+
+    .menu-page .special-menu-tabs .col-left {
+        margin-top: 0;
+    }
+
+    .menu-page .pagination {
+        padding-top: 25px !important;
+    }
+
+    .menu-page .pagination nav {
+        margin: auto;
+    }
+
+    /* OUR CHEFS PAGE CSS */
+    .our-chefs-page.chefs {
+        padding: 0 0 20px;
+    }
+
+    .our-chefs-page.chefs .chefs-list {
+        margin-top: 0;
+    }
+
+    .chefs-list .items:hover .items-overlay {
+        padding-top: 35%;
+    }
+
+    /* CONTACT US PAGE CSS */
+    .contact-us-page.contact-us .map {
+        height: 50vh;
+    }
+
+    /* 404 PAGE CSS */
+    .page-404 .col-left {
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: -20px;
+    }
+
+    .page-404 .col-left img {
+        width: 75%;
+    }
+
+    .page-404 .col-right {
+        padding: 40px 0 70px;
+        text-align: center;
+    }
+
+    .page-404 .col-right p {
+        line-height: 60px;
+        font-size: 50px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+    }
+
+    .page-404 .col-right p:nth-child(2) {
+        padding: 0 30px 20px 30px;
+    }
+
+    .page-404 .col-right button {
+        font-size: 14px;
+        padding: 6px 15px;
+        margin: auto;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1079.98px) {
+
+    /* NAVBAR PART CSS */
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1599.98px) {
+
+    /* DECLARE CLASS AS MEDIA */
+    .col-1200-none {
+        display: none;
+    }
+
+    /* NAVBAR PART CSS */
+    .navbar-brand {
+        padding-left: 70px;
+    }
+
+    .navbar-nav {
+        padding-right: 70px;
+    }
+
+    .navbar-light .navbar-nav .nav-item {
+        padding: 20px 15px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .navbar-light .navbar-nav .nav-item:last-child {
+        padding-top: 5px;
+        margin: auto;
+        margin-top: 25px;
+    }
+
+    .navbar .all-btn {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    #logo {
+        width: 150px !important;
+    }
+
+    /* SLIDER PART CSS */
+    .slider-text {
+        padding-left: 100px;
+        padding-top: calc(50vh - 120px);
+    }
+
+    .slider-text .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .slider-text .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+    }
+
+    .slider-text .content p {
+        padding: 20px 130px 10px 0;
+    }
+
+    .slider-text .content .slider-btn {
+        font-size: 14px;
+        padding: 5px 15px;
+    }
+
+    .slider-item-list {
+        bottom: -30px;
+        left: 60%;
+        padding: 10px;
+        padding-top: 15px;
+    }
+
+    .slider-item-list .title h2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .slider-item-list .title h3 {
+        font-size: 25px;
+        line-height: 15px;
+    }
+
+    .slider-item-list .title img {
+        width: 30%;
+        padding: 5px 0;
+    }
+
+    .slider-item-list .title {
+        padding-bottom: 5px !important;
+    }
+
+    .slider-item-list .items ul {
+        margin-bottom: 10px;
+    }
+
+    /* ABOUT US PART CSS */
+    .about-us {
+        padding: 70px 0 0;
+    }
+
+    .about-us .col-left {
+        position: relative;
+        height: 775px;
+        background-size: auto 100%;
+    }
+
+    .about-us .col-left img {
+        bottom: 50px;
+        right: 75px;
+        width: 300px;
+    }
+
+    .about-us .col-right {
+        padding: 0 80px 10px 10px;
+    }
+
+    .about-us .col-right h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .about-us .col-right h3 {
+        font-size: 50px;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+
+    .about-us .col-right img {
+        width: 90px;
+    }
+
+    .about-us .col-right .headline {
+        padding-top: 10px;
+    }
+
+    .about-us .col-right p {
+        margin-bottom: 20px;
+        line-height: 28px;
+    }
+
+    .about-us .col-right .phone p,
+    .about-us .col-right .days p,
+    .about-us .col-right .hours p {
+        margin-bottom: 15px;
+        line-height: 10px;
+    }
+
+    .about-us .col-right .phone p:nth-child(2),
+    .about-us .col-right .days p:nth-child(2),
+    .about-us .col-right .hours p:nth-child(2) {
+        padding-bottom: 20px;
+        font-size: 25px;
+        line-height: 5px;
+    }
+
+    /* SPECIAL PART CSS */
+    .special .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .special .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 5px;
+    }
+
+    .special .content img {
+        width: 90px;
+    }
+
+    .special-menu-tabs-master {
+        padding-bottom: 0;
+    }
+
+    .special-menu-tabs .col-left {
+        margin-top: -30px;
+        margin-bottom: 3px
+    }
+
+    .menu-category {
+        padding-bottom: 0;
+        padding-top: 10px;
+    }
+
+    .menu-category button {
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .menu-list .items .items-overlay p {
+        font-size: 14px;
+    }
+
+    .menu-list .items .items-overlay p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .menu-list .items:hover .items-overlay {
+        padding-top: 30%;
+    }
+
+    /* TESTIMONIAL PART CSS */
+    .testimonial h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .testimonial h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .testimonial img {
+        width: 90px;
+    }
+
+    /* BOOK A TABLE PART CSS */
+    .book-table .col-left {
+        padding: 180px 0;
+    }
+
+    .book-table .col-left .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .book-table .col-left .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .book-table .col-left .content img {
+        width: 90px;
+    }
+
+    .book-table .col-right .content {
+        width: 95%;
+        left: -55px;
+    }
+
+    /* CHEFS PART CSS */
+    .chefs {
+        padding: 50px 0 80px;
+    }
+
+    .chefs .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .chefs .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .chefs .content img {
+        width: 90px;
+    }
+
+    .chefs-list .items:hover .items-overlay {
+        padding-top: 7%;
+    }
+
+    /* NEWSLETTER PART CSS */
+    .newsletter .col-left {
+        padding: 120px 0;
+    }
+
+    .newsletter .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .newsletter .content h3 {
+        font-size: 50px;
+        line-height: 35px;
+        padding-bottom: 10px;
+    }
+
+    .newsletter .content img {
+        width: 90px;
+    }
+
+    .newsletter .content p {
+        padding: 20px;
+    }
+
+    .newsletter .content .form-control {
+        text-align: center;
+        width: 200px;
+    }
+
+    .newsletter .content .input-group {
+        width: 80%;
+    }
+
+    .newsletter .input-group-btn {
+        margin: auto;
+    }
+
+    /* FOOTER PART CSS */
+    .footer .footer-top {
+        padding: 50px 0 30px;
+        text-align: center;
+    }
+
+    .footer .col-1 .logo {
+        padding-bottom: 80px;
+    }
+
+    .footer .col-1 .social p {
+        line-height: 20px;
+    }
+
+    .footer .col-2 {
+        padding-left: 0;
+    }
+
+    .footer .col-2 ul li>a {
+        line-height: 25px;
+    }
+
+    .footer .col-3,
+    .footer .col-4 {
+        padding-top: 0;
+    }
+
+    .footer .col-3 .phone {
+        padding-bottom: 15px;
+    }
+
+    /* ABOUT US PAGE */
+    .page-header .header .content {
+        padding: 130px 0 50px;
+    }
+
+    .page-header .header .content h2 {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 0;
+    }
+
+    .page-header .header .content h3 {
+        font-size: 45px;
+        line-height: 35px;
+        padding-bottom: 15px;
+    }
+
+    .about-us-page.about-us {
+        padding: 0;
+    }
+    
+    .about-us-page.about-us .col-left {
+        height: 790px;
+        margin-top: -30px;
+        z-index: 9;
+    }
+
+    .about-us-page.about-us .col-right {
+        padding: 40px 80px 20px 10px;
+    }
+
+    .about-us-page.about-us .col-right h3 {
+        font-size: 50px;
+        line-height: 30px;
+    }
+    
+    .about-us-page.about-us .col-right p {
+        margin-bottom: 15px;
+        line-height: 25px;
+    }
+    
+    .about-us-page.about-us .col-right .phone p:nth-child(2),
+    .about-us-page.about-us .col-right .days p:nth-child(2),
+    .about-us-page.about-us .col-right .hours p:nth-child(2) {
+        padding-bottom: 10px;
+        line-height: 0px;
+    }
+
+    /* MENU PAGE CSS */
+    .menu-page .pagination {
+        padding-top: 35px !important;
+    }
+
+    .menu-page .pagination nav {
+        margin: auto;
+    }
+
+    /* OUR CHEFS PAGE CSS */
+    .our-chefs-page.chefs {
+        padding: 0 0 50px;
+    }
+
+    .our-chefs-page.chefs .chefs-list {
+        margin-top: 0;
+    }
+
+    /* CONTACT US PAGE CSS */
+    .contact-us-page.contact-us .map {
+        height: 50vh;
+    }
+
+    /* 404 PAGE CSS */
+    .page-404 .col-left {
+        padding-bottom: 0;
+        padding-left: 0;
+        margin-top: -20px;
+    }
+
+    .page-404 .col-left img {
+        width: 100%;
+    }
+
+    .page-404 .col-right {
+        padding: 40px 0 60px;
+    }
+
+    .page-404 .col-right p {
+        line-height: 45px;
+        font-size: 30px;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .page-404 .col-right p:nth-child(2) {
+        padding-right: 0;
+    }
+
+    .page-404 .col-right p:nth-child(2) {
+        font-size: 16px;
+    }
+
+    .page-404 .col-right button {
+        font-size: 14px;
+        padding: 6px 15px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1216.98px) {
+    .about-us-page.about-us .col-right p {
+        line-height: 23px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1299.98px) {
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+}
+
+/* Double Extra large devices (large large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+
+    /* DECLARE CLASS AS MEDIA */
+    .col-1200 {
+        display: none;
+    }
+
+    /* NEWSLETTER PART CSS */
+    .newsletter .content .input-group {
+        width: 60%;
+        margin: auto;
+    }
+
+    /* FOOTER PART CSS */
+    .footer .col-2 {
+        padding-left: 0;
+    }
+
+    .footer .col-3 {
+        padding-left: 85px;
+    }
+
+    /* ABOUT US PAGE */
+    .about-us-page {
+        padding-top: 0;
+    }
+
+    .about-us-page.about-us .col-left {
+        height: 100vh;
+        margin-top: -40px;
+        z-index: 9;
+    }
+    
+    .about-us-page.about-us .col-right {
+        padding: 70px 0 80px 60px;
+    }
+    .about-us-page.about-us .col-right p {
+        line-height: 28px;
+    }
+    
+    .about-us-page.about-us .col-right .phone p,
+    .about-us .col-right .days p,
+    .about-us .col-right .hours p {
+        line-height: 10px;
+        margin-bottom: 15px;
+    }
+
+    /* MENU PAGE CSS */
+    .menu-page .pagination {
+        padding-top: 35px !important;
+    }
+
+    .menu-page .pagination nav {
+        margin: auto;
+    }
+}

@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- choosyfoody/404.html  29 Nov 2019 03:43:06 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ChoosyFoddy | HTML Restaurant Theme</title>
+
+    <!-- GOOGLE FONTS CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poppins:400,500,600,700,800&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- FONTAWESOME CSS -->
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <!-- BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/vendors/bootstrap.min.css">
+
+    <!-- BOOTSTRAP DATETIME PICKER CSS -->
+    <link href="datetimepicker/css/tempusdominus-bootstrap-4.css" rel="stylesheet">
+
+    <!-- ANIMATION CSS -->
+    <link rel="stylesheet" href="css/vendors/cssanimation.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/main/style.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/responsive/responsive.css">
+
+</head>
+
+<!-- BOOK A TABLE MODAL PART START -->
+<div class="modal" id="bookTableModal" tabindex="-1" role="dialog" aria-labelledby="bookTableModalTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="book-table">
+                    <div class=" col-right">
+
+                        <div class="content text-center">
+
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+
+                            <h3>Send your requirements</h3>
+
+                            <form action="#" name="bookTable">
+
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" autocomplete="off"
+                                        placeholder="No. of Persons"
+                                        oninput="this.value=this.value.replace(/(?![0-9])./gmi,'')" />
+
+                                    <div class="input-group-append">
+
+                                        <div class="input-group-text" id="persons">
+
+                                            <i class="fas fa-user-friends"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group date" id="datetimepicker4" data-target-input="nearest">
+
+                                    <input type="text" class="form-control datetimepicker-input" id="datePicker"
+                                        data-target="#datetimepicker4" autocomplete="off" placeholder="Date"
+                                        onkeydown="return false" />
+
+
+                                    <div class="input-group-append" data-target="#datetimepicker4"
+                                        data-toggle="datetimepicker">
+
+                                        <div class="input-group-text" id="calendar">
+
+                                            <i class="fa fa-calendar"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group date" id="datetimepicker3" data-target-input="nearest">
+
+                                    <input type="text" class="form-control datetimepicker-input" id="timePicker"
+                                        data-target="#datetimepicker3" autocomplete="off" placeholder="Time"
+                                        onkeydown="return false" />
+
+                                    <div class="input-group-append" data-target="#datetimepicker3"
+                                        data-toggle="datetimepicker">
+
+                                        <div class="input-group-text" id="time">
+
+                                            <i class="fas fa-clock"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" autocomplete="off"
+                                        placeholder="Your Name" />
+
+                                    <div class="input-group-append">
+
+                                        <div class="input-group-text" id="yourname">
+
+                                            <i class="fas fa-user-edit"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" autocomplete="off"
+                                        placeholder="Your Phone No." />
+
+                                    <div class="input-group-append">
+
+                                        <div class="input-group-text">
+
+                                            <i class="fas fa-phone"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group">
+
+                                    <input type="text" class="form-control" autocomplete="off"
+                                        placeholder="Your Email" />
+
+                                    <div class="input-group-append">
+
+                                        <div class="input-group-text">
+
+                                            <i class="fas fa-at"></i>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="input-group">
+
+                                    <span class="input-group-btn">
+
+                                        <button class="btn subbtn" type="submit">Submit</button>
+
+                                    </span>
+
+                                </div>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BOOK A TABLE MODAL PART END -->
+
+<body class="contact-us-body">
+
+    <!-- NAV BAR PART START -->
+    <nav id="navbar-id" class="navbar navbar-expand-lg navbar-fixed-top navbar-light cf-nav">
+        <div class="container">
+            <a id="logo" class="navbar-brand" href="#">
+                <img src="images/cf-logo.png" class="img-fluid" alt="Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="our-chefs.html">Our Chefs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link active" href="404.html">404 Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn all-btn shine" data-toggle="modal"
+                            data-target="#bookTableModal">Book-a-Table</button>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- NAV BAR PART END -->
+
+    <!-- PAGE HEADER PART START -->
+    <section id="full-page-header" class="page-header">
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-12 p-0 header">
+
+                    <div class="content text-center">
+
+                        <h2>404 Page</h2>
+
+                        <h3>Something Wrong</h3>
+
+                        <img src="images/title-shape.svg" alt="Title Shape Image">
+                                
+                        <div class="breadcrumbs">
+                            <ul class="breadcrumb justify-content-center">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">404
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PAGE HEADER PART END -->
+
+    <!-- 404 PAGE PART START -->
+    <section id="full-404-page" class="page-404">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-6 col-left">
+                    <img src="images/bg-404.png" alt="Broken Eggs Image" class="img-fluid">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1 col-right">                    
+                    <p>This page may be broken</p>
+                    <p>May be there are some reasons. But not sure about the specific technical issues, why this is happening right now. Oh, you can forget about it, keep smiling. </p>
+                    <a href="index.html">
+                        <button type="button" class="btn all-btn shine d-none d-sm-block">Still you can go Home</button>
+                        <button type="button" class="btn all-btn shine d-sm-none">Go Home</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 404 PAGE PART END -->
+
+    <!-- FOOTER PART START -->
+    <section id="full-footer" class="footer">
+
+        <div class="footer-top">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col col-12 col-sm-6 col-md-6 col-xl-4 col-1">
+
+                        <div class="row">
+
+                            <div class="col-md-12 logo">
+                                <p>
+                                    <a href="index.html"><img src="images/cf-logo.png" alt="Logo"></a>
+                                </p>
+                            </div>
+
+                            <div class="col-md-12">
+
+                                <div class="social">
+                                    <p class="text">Around The Web</p>
+                                    <ul>
+                                        <li>
+                                            <ul>
+                                                <li>
+                                                    <a class="facebook" href="YOUR%20FACEBOOK%20URL.html">
+                                                        <i class="fab fa-facebook-f"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="twitter" href="YOUR%20TWITTER%20URL.html">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="instagram" href="YOUR%20INSTAGRAM%20URL.html">
+                                                        <i class="fab fa-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="behance" href="YOUR%20BEHANCE%20URL.html">
+                                                        <i class="fab fa-behance"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="behance" href="YOUR%20LINKED%20IN%20URL.html">
+                                                        <i class="fab fa-linkedin-in"></i>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="behance" href="YOUR%20YOUTUBE%20URL.html">
+                                                        <i class="fab fa-youtube"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col col-12 col-sm-6 col-md-6 col-xl-1 col-2">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about-us.html">About Us</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="our-chefs.html">Our Chefs</a></li>
+                            <li><a href="contact-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col col-12 col-sm-6 col-md-6 col-xl-4 col-3">
+
+                        <div class="phone">
+                            <p>+1 234 567 890</p>
+                        </div>
+
+                        <div class="mail">
+                            <p>INFO@CHOOSYFOODY.COM</p>
+                        </div>
+
+                        <div class="address">
+                            <p>77 GROVE STREET</p>
+                            <p>SOUTH NEWYORK</p>
+                            <p>NEWYORK 10013</p>
+                            <p>UNITED STATES</p>
+                        </div>
+
+                    </div>
+
+                    <div class="col col-12 col-sm-6 col-md-6 col-xl-3 col-4">
+
+                        <p>Write something to us</p>
+
+                        <form action="#">
+                            <div class="input-group">
+                                <input type="name" class="form-control" placeholder="Your name" autocomplete="off">
+                            </div>
+
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your email" autocomplete="off">
+                            </div>
+
+                            <div class="input-group">
+                                <textarea class="form-control" name="text" id="text" placeholder="Your message"
+                                    autocomplete="off"></textarea>
+                            </div>
+
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit">Submit</button>
+                                </span>
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-8 col-left">
+
+                        <a href="templateshub.net">Templates Hub</a>
+
+                    </div>
+
+                    <div class="col-md-4 col-right d-none d-md-block">
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- FOOTER PART END -->
+
+    <!-- CORE JQUERY -->
+    <script src="js/vendors/jquery-1.12.4.min.js"></script>
+
+    <!-- BOOTSTRAP JS -->
+    <script src="js/vendors/popper.min.js"></script>
+    <script src="js/vendors/bootstrap.min.js"></script>    
+    		
+    <!-- SLIDERS JS -->		
+    <script src="js/vendors/slick.min.js"></script>		
+
+    <!-- FILTER USED IN SPECIAL PART -->		
+    <script src="js/vendors/isotope.pkgd.min.js"></script>		
+
+    <!-- PARALLAX USED IN SPECIAL PART-->		
+    <script src="js/vendors/rellax.min.js"></script>	
+
+    <!-- DATE TIME PICKER JS Start-->
+    <script src="datetimepicker/js/moment-with-locales.min.js"></script>
+    <script src="datetimepicker/js/tempusdominus-bootstrap-4.js"></script>
+
+    <!-- ANIMATION SCROLLY JS -->
+    <script src="js/vendors/scrolly.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="js/main/custom.js"></script>
+
+</body>
+
+
+<!-- choosyfoody/404.html  29 Nov 2019 03:43:18 GMT -->
+</html>
